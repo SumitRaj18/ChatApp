@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ *{
+    font-family: 'poppins';
+ }
+.typing {
+    width: 320px;
+    font-size: 27px;
+    font-weight: bold;
+    color: aliceblue;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 1s steps(25, end), cursor .1s steps(25, end) normal;
+}
+body{
+    overflow: hidden;
+}
+@keyframes typing {
+    0% { width: 0 }
+}
+@keyframes cursor {
+    100% { border-color: black }
+}
+.btn:hover{
+    background-color: blue;
+}
+.desktop-chat {
+    display: block;
+  }
+  
+  .mobile-chat {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .desktop-chat {
+      display: none;
+    }
+  
+    .mobile-chat {
+      display: block;
+    }
+  }
+  
+@media only screen and (max-width:500px) {
+    .ser{
+        height: 5vh;
+    }
+    .chati{
+       display: flex;
+       align-items: center;
+       justify-content: space-around;
+       gap: 170px;
+    }
+    .ty{
+        margin-bottom: 200px;
+    }
+    .login{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .signup{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .sn{
+        margin-bottom: 150px;
+    }
+    .ee{
+        font-size:25px;
+        gap: 40px;
+    }
+    .input{
+        height: 35px;
+    }
+    
+    .t{
+        height: 35px;
+    }
+    .grow{
+        height: 35px;
+    }
+    .bb{
+        height: 0%;
+         width: 0%;
+         visibility: hidden;
+
+    }
+    .ms{
+        overflow-y: auto;
+        max-height: 92vh;
+    }
+    .hey:focus{
+      width: 0%;
+      visibility: hidden;
+    }
+    .hh{
+        width: 100%;
+        overflow: hidden;
+    }
+    .s{
+        flex: none;
+        overflow: hidden;
+        height: 100%;
+        
+    }
+    .tt{
+        width: 100%;
+    }
+  
+    .dd{
+        width: 100%;
+        height: 80px;
+    }
+   .type{
+    height: 10vh;
+   }
+    .tan{
+        max-height: 72vh;
+    }
+    .inp{
+        margin-top: 18px;
+    }
+}
