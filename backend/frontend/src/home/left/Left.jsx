@@ -9,7 +9,7 @@ const Left = () => {
  
  
   return (
-    <div  className='hh w-[30%] h-screen  bg-slate-950 text-white border-r border-white'>
+    <div  className='hh w-[30%] h-screen  bg-slate-950 text-white border-r border-black'>
       <div className='chati flex gap-32'>
       <h1 className='ee text-3xl px-8 mt-2'>Chats</h1>
       

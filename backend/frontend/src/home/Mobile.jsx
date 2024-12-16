@@ -24,15 +24,15 @@ const Mobile = () => {
         <div style={{backgroundImage:`url(${image})`,backgroundRepeat:'no-repeat',backgroundSize:'cover'}} className=' w-full  text-white' >
     {!selectedConvo?  <div  className='left h-screen'> <Left/> </div>  : ( <>
      <div className='h-screen w-full overflow-hidden'>
-      <div className='flex h-[14vh] w-full bg-slate-950'> <GoArrowLeft onClick={refreshPage} className='text-4xl ml-1  mt-5 bg-slate-950' /> 
+      <div className='flex w-full bg-slate-950'> <GoArrowLeft onClick={refreshPage} className='text-4xl ml-1  mt-5 bg-slate-950' /> 
        <Chatuser/>
      
       </div>
-    <div  className='tan py-2  overflow-y-auto ' style={{maxHeight:'calc(88vh - 15vh)'}} >
+    <div  className='tan py-2  overflow-y-auto '  >
 
     <Messages/>
     </div>
-    <div className='type h-[10vh] '>
+    <div className='type '>
     <Type/>
     </div>
     </div>
