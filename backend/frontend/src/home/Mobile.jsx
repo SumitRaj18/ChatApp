@@ -28,7 +28,7 @@ const Mobile = () => {
        <Chatuser/>
      
       </div>
-    <div  className='tan py-2  overflow-y-auto ' style={{maxHeight:'calc(88vh - 15vh)'}} >
+    <div  className='tan py-2  overflow-y-auto ' style={{maxHeight:'calc(88vh - 10vh)'}} >
 
     <Messages/>
     </div>
