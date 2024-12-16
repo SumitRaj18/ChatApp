@@ -34,7 +34,7 @@ const Search = () => {
    onChange={(e)=>
     setSearch(e.target.value)
    }
-  className="grow  text-black" placeholder="Search" />
+  className="grow bg-white  text-black" placeholder="Search" />
 <div>
 <i onClick={handleSubmit} className="fa fa-search" style={{color:'black',fontSize:'20px'}}></i>
 </div>
