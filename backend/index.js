@@ -4,6 +4,7 @@ import mongoose from 'mongoose';
 import cookieParser from 'cookie-parser';
 import userRoutes from './routes/userroutes.js'
 import messageRoutes from './routes/message.router.js'
+import path from 'path'
 import cors from 'cors'
 import { app, server } from './SocketIO/server.js';
 dotenv.config();
@@ -24,7 +25,13 @@ try{
 app.use("/api/user",userRoutes)
 app.use("/api/message",messageRoutes)
 
-
+if (process.env.NODE_ENV  === 'production') {
+  const dirPath = path.resolve();
+  app.use(express.static("./frontend/dist"));
+  app.get('*',(req,res)=>{
+    res.sendFile(path.resolve(dirPath,'./frontend/dist','index.html'));
+  })
+}
 server.listen(PORT, () => {
   console.log(`Example app listening on port ${PORT}`)
 })  
