@@ -16,9 +16,9 @@ const Type = () => {
     <div className='inp w-[70%] mx-4 '>
       <input type="text" value={message} onChange={(e)=>{
         setMessage(e.target.value)
-      }} placeholder="Type here" className="input flex items-center border-slate-400  w-full py-3 px-3 rounded-xl grow outline-none  text-black" />
+      }} placeholder="Type here" className="inp2 input flex items-center border-slate-400  w-full py-3 px-3 rounded-xl grow outline-none  text-black" />
     </div>
-    <button className='text-3xl mb-4'>
+    <button className=' send text-3xl mb-4'>
     <IoSend  />
 
     </button>

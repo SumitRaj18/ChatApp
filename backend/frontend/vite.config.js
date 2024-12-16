@@ -8,7 +8,7 @@ export default defineConfig({
     port:4001,
     proxy: {
       '/api': {
-        target:'http://localhost:5000',
+        target:'https://chatapp-qy3f.onrender.com',
         changeOrigin:true
       }
     }

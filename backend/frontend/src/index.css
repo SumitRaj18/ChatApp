@@ -43,7 +43,7 @@ body{
     }
   }
   
-@media only screen and (max-width:500px) {
+@media only screen  and (max-width:768px ) {
     .ser{
         height: 5vh;
     }
@@ -55,19 +55,26 @@ body{
     }
     .ty{
         margin-bottom: 200px;
+        background: transparent;
     }
     .login{
         display: flex;
         align-items: center;
         justify-content: center;
+        overflow: hidden;
     }
     .signup{
         display: flex;
         align-items: center;
         justify-content: center;
+        overflow: hidden;
+    }
+    .send{
+        margin-top: 10px;
     }
     .sn{
         margin-bottom: 150px;
+        background: transparent;
     }
     .ee{
         font-size:25px;
@@ -75,6 +82,10 @@ body{
     }
     .input{
         height: 35px;
+
+    }
+    .inp2{
+        color: black;
     }
     
     .t{
@@ -82,6 +93,7 @@ body{
     }
     .grow{
         height: 35px;
+        color: black;
     }
     .bb{
         height: 0%;
