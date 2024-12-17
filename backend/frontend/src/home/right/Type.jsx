@@ -18,7 +18,7 @@ const Type = () => {
         setMessage(e.target.value)
       }} placeholder="Type here" className="inp2 input flex items-center bg-white   w-full py-3 px-3 rounded-xl grow outline-none  text-black" />
     </div>
-    <button className=' send text-3xl mb-4'>
+    <button className=' send text-3xl mb-3'>
     <IoSend  />
 
     </button>

@@ -34,7 +34,7 @@ function Messages() {
         )}
         {!loading && messages.length === 0 &&
           <div>
-            <p className='text-center text-6xl mt-[20%] to-blue-700'> Say Hi</p>
+            <p className='text-center text-6xl  to-blue-700'> Say Hi</p>
           </div>
         }
 

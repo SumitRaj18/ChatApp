@@ -32,7 +32,7 @@ const Mobile = () => {
 
     <Messages/>
     </div>
-    <div className='h-1/5'>
+    <div className='h-1/4 '>
     <Type/>
     </div>
     </div>
