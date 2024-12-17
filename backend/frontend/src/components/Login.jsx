@@ -4,7 +4,7 @@ import axios from 'axios'
 import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import toast from 'react-hot-toast'
-import image from '../assets/bg.jpeg'
+import image from '../assets/back.jpg'
 import { useAuth } from '../context/AuthProvider';
 const Login = () => {
     const [authUser,setAuthUser] = useAuth();

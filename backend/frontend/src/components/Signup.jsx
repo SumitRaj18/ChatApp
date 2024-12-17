@@ -2,7 +2,7 @@ import React from 'react'
 import { useForm } from "react-hook-form";
 import axios from 'axios'
 import { Link, useNavigate } from 'react-router-dom';
-import image from '../assets/bg.jpeg'
+import image from '../assets/back.jpg'
 
 import toast from 'react-hot-toast';
 import { useAuth } from '../context/AuthProvider';
