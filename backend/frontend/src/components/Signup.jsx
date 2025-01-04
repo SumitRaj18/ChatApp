@@ -2,7 +2,7 @@ import React from 'react'
 import { useForm } from "react-hook-form";
 import axios from 'axios'
 import { Link, useNavigate } from 'react-router-dom';
-import image from '../assets/back.jpg'
+import image from '../assets/cv.avif'
 
 import toast from 'react-hot-toast';
 import { useAuth } from '../context/AuthProvider';
@@ -42,7 +42,7 @@ const Signup = () => {
     }
 
     return (
-        <div className='signup overflow-hidden min-h-screen' style={{backgroundImage:`url(${image})`,backgroundRepeat:'no-repeat',backgroundSize:'cover'}}>
+        <div className='signup overflow-hidden min-h-screen' style={{backgroundImage:`url(${image})`,backgroundRepeat:'',backgroundSize:'contain'}}>
             <section >
                 <div className="sn flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
 

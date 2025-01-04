@@ -4,7 +4,7 @@ import axios from 'axios'
 import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import toast from 'react-hot-toast'
-import image from '../assets/back.jpg'
+import image from '../assets/cv.avif'
 import { useAuth } from '../context/AuthProvider';
 const Login = () => {
     const [authUser,setAuthUser] = useAuth();
@@ -38,7 +38,7 @@ const Login = () => {
     <>
      
 
-    <div className='login min-h-screen' style={{backgroundImage:`url(${image})`,backgroundRepeat:'no-repeat',backgroundSize:'cover'}}>
+    <div className='login min-h-screen' style={{backgroundImage:`url(${image})`,backgroundRepeat:'',backgroundSize:'contain'}}>
        <section  >
   <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen sm:h-screen lg:py-0">
      
